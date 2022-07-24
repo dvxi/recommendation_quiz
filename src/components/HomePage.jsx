@@ -7,7 +7,7 @@ import {
   SkeletonBodyText,
 } from "@shopify/polaris";
 
-export default function HomePage() {
+export function HomePage() {
   /*
     Add an App Bridge useNavigate hook to set up the navigate function.
     This function modifies the top-level browser URL so that you can
@@ -17,7 +17,7 @@ export default function HomePage() {
   /*
     These are mock values. Setting these values lets you preview the loading markup and the empty state.
   */
-  const isLoading = true;
+  const isLoading = false;
   const isRefetching = false;
   const QRCodes = [];
 
